@@ -1,0 +1,12 @@
+.back-img {
+    background-image: url(/images/homebg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.help-us-img {
+    background-image: url(/images/homeimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
