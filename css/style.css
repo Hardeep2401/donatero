@@ -1,3 +1,4 @@
+
 .back-img {
     background-image: url(/images/homebg.jpg);
     background-size: cover;
@@ -13,4 +14,10 @@
 
 .our-team {
     background-color: #f6faff;
+}
+
+.bright-future-bg-img {
+    background-image: url(/images/donate.jpg);
+    background-size: cover;
+    background-position: center;
 }
