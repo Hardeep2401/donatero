@@ -24,3 +24,8 @@
 .img-size {
     width: 390px;
 }
+
+.img-width {
+    width: 820px;
+    object-fit: fill;
+}
