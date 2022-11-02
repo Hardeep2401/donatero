@@ -29,3 +29,8 @@
     width: 820px;
     object-fit: fill;
 }
+
+.svg-width {
+    margin-top: 9px;
+    width: 45px;
+}
