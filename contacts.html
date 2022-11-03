@@ -45,8 +45,7 @@
                                 <a class="nav-link" href="contacts.html">Contact</a>
                             </li>
                             <div>
-                                <button class="btn btn-warning m-auto btn-outline-primary px-5 rounded-5"
-                                    type="submit">Donate</button>
+                                <button class="btn btn-warning m-auto px-5 rounded-5" type="submit">Donate</button>
                             </div>
                         </ul>
                     </div>
@@ -62,10 +61,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p>CONTACT US</p>
-                    <h1>Connect with us today</h1>
-                    <p>Contact us at any time you need it. We are always glad to tell you more about our projects, the
-                        ways to join us and get our help.</p>
+                    <p class="text-info py-3">CONTACT US</p>
+                    <h1 class="py-3">Connect with us today</h1>
+                    <p class="fs-5 py-3">Contact us at any time you need it. We are always glad to tell you more about
+                        our projects, the ways to <br /> join us and get our help.</p>
                     <span class="elementor-icon-list-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path
@@ -78,16 +77,57 @@
                                 d="M21.1678 15.1468C20.8221 15.1468 20.4789 15.038 20.1872 14.8245L15.4783 11.3779C15.0523 11.0661 14.7979 10.5648 14.7979 10.0367C14.7979 9.50866 15.0522 9.00716 15.4783 8.69526L20.1874 5.2486C20.6952 4.87682 21.3595 4.82268 21.921 5.1075C22.4806 5.39127 22.8288 5.95618 22.8314 6.58307H23.4148C23.9371 6.58307 24.3606 7.00659 24.3606 7.52889C24.3606 8.0512 23.9371 8.47472 23.4148 8.47472H21.8856C21.3632 8.47472 20.9398 8.0512 20.9398 7.52889V7.04215L16.8487 10.0367L20.9398 13.031V12.5443C20.9398 12.022 21.3632 11.5985 21.8856 11.5985H27.4177C27.7986 11.5985 28.1087 11.2885 28.1087 10.9075V9.16554C28.1087 8.78456 27.7987 8.47454 27.4177 8.47454H26.8057C26.2833 8.47454 25.8599 8.05102 25.8599 7.52872C25.8599 7.00641 26.2833 6.5829 26.8057 6.5829H27.4177C28.8417 6.5829 30.0003 7.74141 30.0003 9.16554V10.9075C30.0003 12.3316 28.8417 13.4901 27.4177 13.4901H22.8313C22.8289 14.117 22.4805 14.682 21.9211 14.9657C21.682 15.0869 21.4242 15.1468 21.1678 15.1468Z"
                                 fill="#242F51"></path>
                         </svg> </span>
-                    <span>Call Us:(234) 567 8901 </span>
-                    <p>Mon - Fri: 7am - 10pm <br />
+                    <span class="px-3">Call Us:(234) 567 8901 </span>
+                    <p class="px-5">Mon - Fri: 7am - 10pm <br />
                         Sat - Sun: 8am - 8pm </p>
-                    <!--Google map-->
-                    <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-                        <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
                 </div>
+                <div class="col-12 col-lg-6 m-auto">
+                    <!-- form input -->
+                    <form method="post">
+                        <div class="mb-3">
+
+                            <label for="">Name *</label>
+                            <input type="text" class="form-control  bg-light" name="first-name" id="first-name"
+                                placeholder="What's your name?" />
+
+                            <label for="">Surname *</label>
+                            <input type="text" class="form-control bg-light" name="surname" id="surname"
+                                placeholder="What's you name?" />
+
+
+                            <label for=" exampleInputEmail1" class="form-label">Email *</label>
+                            <input type="email" class="form-control  bg-light" placeholder="What's your Name" />
+
+                            <label for="">Phone *</label>
+                            <input type="number" class="form-control bg-light " placeholder="Your phone number" />
+
+                            <label for="exampleFormControlTextarea1" class="form-label">Massage *</label>
+                            <textarea class="form-control  bg-light" id="exampleFormControlTextarea1"
+                                placeholder="Drop us a few lines here" rows="8"></textarea>
+                            <div>
+                                <p>
+                                    By signing and clicking Submit, you affirm you have read and agree to the
+                                    <sapn class="text-info">Privacy Policy </sapn> and <span class="text-info">Terms
+                                        of Use</span>
+                                </p>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- /form input -->
+
+                <!-- map location -->
+                <div class="map-area mt-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.4611813502947!2d76.68297111496021!3d30.70543288164667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feff02dbfe033%3A0x190f18b051f0f9da!2sLP%20Infotech!5e0!3m2!1sen!2sin!4v1667459935741!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- /map location -->
             </div>
+        </div>
         </div>
     </section>
     <!-- /main -->

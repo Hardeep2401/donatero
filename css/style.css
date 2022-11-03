@@ -2,7 +2,7 @@
     background-image: url(/images/homebg.jpg);
     background-size: cover;
     background-position: center;
-    height: 613px;
+    height: 100vh;
 }
 
 .help-us-img {
